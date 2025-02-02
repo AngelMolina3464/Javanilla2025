@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width
+    , initial-scale=1"
+    />
+    <!-- Bloque de estilos-->
+    <link rel="stylesheet" href="/styles/root.css" />
+    <link rel="stylesheet" href="/styles/cfactura.css" />
+    <link rel="stylesheet" href="/styles/desplegables.css" />
+    <!-- Bloque de estilos-->
+    <title>Master JS | cFactura</title>
+  </head>
+  <body>
+    <!-- Bloque de navegacion-->
+    <nav>
+      <strong>🔱Master JS</strong>
+      <div class="barraNativa__Contenedor">
+        <div class="barraNativa__Agrupacion">
+          Programacion Medular <span class="selectorBox__Toggle">↓</span>
+          <div class="barraNativa__Ocultacion">
+            <div>
+              <a href="/pages/html.html">HTML</a>
+              <a href="/pages/css.html">CSS</a>
+              <a href="/pages/js.html">JS</a>
+            </div>
+          </div>
+        </div>
+        <div class="barraNativa__Agrupacion">
+          Modelos JS <span class="selectorBox__Toggle">↓</span>
+          <div class="barraNativa__Ocultacion">
+            <div>
+              <a href="/pages/form.html">Formularios</a>
+              <a href="/pages/css__desplegables.html">Toogle</a>
+              <a href="/pages/cfactura.html">Factura</a>
+              <a href="/pages/calculadora.html"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Bloque de navegacion-->
+    <main class="mainContainer">
+      <header>
+        <h1>cFactura</h1>
+      </header>
+      <section class="windows__twoDivice">
+        <div>
+          <div class="formContainer">
+            <h2>Datos de entrada</h2>
+            <label for="fechaDocumento">Fecha de Documento :</label>
+            <input id="fechaDocumento" dataAbsortion="entries" type="date" />
+            <label for="">Concepto:</label>
+            <input id="concepto" dataAbsortion="entries" type="text" />
+            <label for="">Cantidad:</label>
+            <input id="cantidad" dataAbsortion="entries" type="text" />
+            <label for="">Precio Unitario:</label>
+            <input id="precioUnitario" dataAbsortion="entries" type="number" />
+            <div class="botonera">
+              <button onclick="tomarDatos()">Tomar datos</button>
+              <button onclick="limpiarDatos()">Limpiar Datos</button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="preliminarContenido">
+            <strong>Vista Preliminar</strong>
+            <label for="vistaPreliminar">Datos Actuales: </label>
+            <textarea name="vistaPreliminar" id="vistaPreliminar"></textarea>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Bloque del Footer -->
+    <footer>
+      <p>
+        &copy; 2025 Angel Molina - "El éxito es la suma de pequeños esfuerzos
+        repetidos día tras día."
+      </p>
+    </footer>
+    <!--Bloque del Footer -->
+
+    <!--Barra  top de Nagecion con Selectores  -->
+    <script src="/scripts/navegationBar.js"></script>
+    <script src="/scripts/cfactura.js"></script>
+    <!--Barra  top de Nagecion con Selectores  -->
+  </body>
+</html>

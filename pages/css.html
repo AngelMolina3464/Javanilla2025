@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bloque de estilos-->
+    <link rel="stylesheet" href="/styles/root.css" />
+    <link rel="stylesheet" href="/styles/desplegables.css" />
+    <!-- Bloque de estilos-->
+    <title>Master JS | CSS</title>
+  </head>
+  <body>
+    <!-- Bloque de navegacion-->
+    <nav>
+      <strong>🔱Master JS</strong>
+      <div class="barraNativa__Contenedor">
+        <div class="barraNativa__Agrupacion">
+          Programacion Medular <span class="selectorBox__Toggle">↓</span>
+          <div class="barraNativa__Ocultacion">
+            <div>
+              <a href="/pages/html.html">HTML</a>
+              <a href="/pages/css.html">CSS</a>
+              <a href="/pages/js.html">JS</a>
+            </div>
+          </div>
+        </div>
+        <div class="barraNativa__Agrupacion">
+          Modelos JS <span class="selectorBox__Toggle">↓</span>
+          <div class="barraNativa__Ocultacion">
+            <div>
+              <a href="/pages/form.html">Formularios</a>
+              <a href="/pages/css__desplegables.html">Toogle</a>
+              <a href="/pages/cfactura.html">Factura</a>
+              <a href="/pages/calculadora.html"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Bloque de navegacion-->
+    <header>
+      <h1>¿Qué es CSS?</h1>
+    </header>
+
+    <section>
+      <h2>Introducción a CSS</h2>
+      <p>
+        CSS (Cascading Style Sheets) es un lenguaje de diseño que se utiliza
+        para darle estilo a los documentos HTML. CSS permite controlar el
+        aspecto visual de las páginas web, como los colores, las fuentes, los
+        márgenes, el espaciado y la disposición de los elementos en la página.
+      </p>
+      <img
+        width="180"
+        src="https://www.adaweb.es/wp-content/uploads/2022/05/logotipo_css-min.png"
+        alt=""
+      />
+
+      <h2>¿Cómo funciona CSS?</h2>
+      <p>
+        CSS funciona mediante la asociación de reglas de estilo a los elementos
+        HTML. Estas reglas definen cómo se deben mostrar los elementos en el
+        navegador.
+      </p>
+
+      <h2>¿Qué contiene una regla CSS?</h2>
+      <p>Una regla CSS consta de dos partes principales:</p>
+      <ul>
+        <li>
+          <strong>Selector</strong>: El elemento HTML al que se le aplicará el
+          estilo (por ejemplo, un párrafo o un encabezado).
+        </li>
+        <li>
+          <strong>Declaración</strong>: La propiedad de estilo que se quiere
+          aplicar y su valor (por ejemplo, color o tamaño de fuente).
+        </li>
+      </ul>
+
+      <h2>Ejemplo de código CSS</h2>
+      <pre>
+            h1 {
+                color: blue;
+                font-size: 36px;
+            }
+        </pre
+      >
+      <p>
+        En el ejemplo anterior, se está aplicando un color azul y un tamaño de
+        fuente de 36 píxeles al elemento &lt;h1&gt;.
+      </p>
+
+      <h2>Tipos de CSS</h2>
+      <ul>
+        <li>
+          <strong>CSS en línea</strong>: Se aplica directamente a los elementos
+          HTML usando el atributo <code>style</code>.
+        </li>
+        <li>
+          <strong>CSS interno</strong>: Se coloca dentro de la etiqueta
+          <code>&lt;style&gt;</code> en el archivo HTML.
+        </li>
+        <li>
+          <strong>CSS externo</strong>: Se coloca en un archivo separado (.css)
+          que se enlaza al HTML.
+        </li>
+      </ul>
+
+      <h2>Ejemplo de cómo incluir CSS en un documento HTML</h2>
+      <p>Este es un ejemplo de cómo se puede enlazar un archivo CSS externo:</p>
+      <pre>
+            &lt;head&gt;
+                &lt;link rel="stylesheet" href="styles.css"&gt;
+            &lt;/head&gt;
+        </pre
+      >
+    </section>
+    <!--Bloque del Footer -->
+    <footer>
+      <p>
+        &copy; 2025 Angel Molina - "El éxito es la suma de pequeños esfuerzos
+        repetidos día tras día."
+      </p>
+    </footer>
+    <!--Bloque del Footer -->
+
+    <!--Barra  top de Nagecion con Selectores  -->
+    <script src="/scripts/navegationBar.js"></script>
+    <!--Barra  top de Nagecion con Selectores  -->
+  </body>
+</html>

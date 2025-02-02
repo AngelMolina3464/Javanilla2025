@@ -1,0 +1,35 @@
+html,
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  border: solid black;
+  border-right: 2px;
+  border-left: 2px;
+  border-top: 10px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  column-gap: 15px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+  width: 250px;
+  padding: 8px 5px;
+  box-sizing: border-box;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+
+.mainContainer {
+  margin: 10px 15px;
+}
