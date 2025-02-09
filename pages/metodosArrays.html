@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/styles/root.css" />
     <link rel="stylesheet" href="/styles/desplegables.css" />
     <!-- Bloque de estilos-->
+    <link rel="stylesheet" href="/styles/pokedex.css" />
     <title>Master JS | Principal</title>
   </head>
   <body>
@@ -28,31 +29,41 @@
         <h1>Menu Principal</h1>
       </header>
 
-      <article class="model__GridMenu">
-        <div class="barraNativa__Agrupacion">
-          Bases de FRONT-END <span class="selectorBox__Toggle">↓</span>
-          <div class="barraNativa__Ocultacion">
-            <div>
-              <a href="/pages/desarolloweb.html">Desarollo Web</a>
-              <a href="/pages/html.html">HTML</a>
-              <a href="/pages/css.html">CSS</a>
-            </div>
+      <section>
+        <h2>Arreglos</h2>
+      </section>
+
+      <section class="bodyCard">
+        <div class="filtros__contenedor">
+          <strong>Filtros de Busqueda</strong>
+          <label for="">Categoria de Busqueda</label>
+          <div>
+            <label>
+              <input
+                class="selectorRadioOptions"
+                type="radio"
+                name="optionSelec"
+                value="name"
+              />
+              Nombre
+            </label>
+            <label>
+              <input
+                class="selectorRadioOptions"
+                type="radio"
+                name="optionSelec"
+                value="id"
+              />
+              Id
+            </label>
           </div>
+          <div class="focusSearch"></div>
+          <button id="generadorCampoButton">Generar Campo de Busqueda</button>
         </div>
-        
-        <div class="barraNativa__Agrupacion">
-          JS Intermedio <span class="selectorBox__Toggle">↓</span>
-          <div class="barraNativa__Ocultacion">
-            <div>
-              <a href="/pages/metodosArrays.html">Arreglos</a>
-              <a href="/pages/form.html">Formularios</a>
-              <a href="/pages/css__desplegables.html">Toogle</a>
-              <a href="/pages/cfactura.html">Factura</a>
-              <a href="/pages/calculadora.html"></a>
-            </div>
-          </div>
+        <div class="card__Container">
+          <strong>Datos Opetinidos</strong>
         </div>
-      </article>
+      </section>
     </main>
     <!--Bloque del Footer -->
     <footer>
@@ -65,6 +76,8 @@
 
     <!--Barra  top de Nagecion con Selectores  -->
     <script src="/scripts/navegationBar.js"></script>
+    <script src="/scripts/arrays.js"></script>
     <!--Barra  top de Nagecion con Selectores  -->
+    <script src="/scripts/arraysDom.js"></script>
   </body>
 </html>

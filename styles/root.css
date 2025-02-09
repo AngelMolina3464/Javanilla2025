@@ -1,14 +1,15 @@
 html,
 body {
-  background-color: rgb(250, 250, 250);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #072146;
+  font-family:  Calibri, "Trebuchet MS", sans-serif;
+  color: aliceblue;
 }
 
 nav {
   display: flex;
   align-items: center;
   column-gap: 15px;
-  border: solid black;
+  border: solid white 2px;
   border-right: 2px;
   border-left: 2px;
   border-top: 10px;
@@ -32,4 +33,20 @@ input[type="date"] {
 
 .mainContainer {
   margin: 10px 15px;
+}
+.barraNavegacion__Contenedor {
+  display: flex;
+  margin: 5px 10px;
+  column-gap: 15px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.barraNavegacion__Contenedor a {
+  text-decoration: none;
+  color: white;
+  padding: 4px 10px;
+}
+.barraNavegacion__Contenedor  a:hover{
+  background-color: rgba(240, 248, 255, 0.342);
+  border-radius: 5px
 }

@@ -34,7 +34,7 @@ barraAgrupacion.forEach((item) => {
       : (signoBloque.innerHTML = "↓");
 
     barraDesplegable.style.display === "block"
-      ? (item.style.backgroundColor = "rgba(238, 238, 238, 0.95)")
+      ? (item.style.backgroundColor = "rgba(238, 238, 238, 0.23)")
       : (item.style.backgroundColor = "rgba(255, 255, 255, 0.03)");
   });
 });

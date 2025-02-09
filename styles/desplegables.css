@@ -32,19 +32,18 @@
 }
 
 /* Modelo con Anclajes */
-.barraNativa__Contenedor {
-  display: flex;
-  margin: 5px 10px;
+.model__GridMenu {
+  margin: 0 auto;
+  display: grid;
+  width: 90%;
+  grid-template-columns: 30% 30% 30%;
   column-gap: 15px;
-  padding: 5px 10px;
-  border-radius: 10px;
 }
 .barraNativa__Agrupacion {
   cursor: pointer;
   padding: 10px 15px;
   border-radius: 15px;
   border: solid rgba(150, 150, 150, 0.836);
-  min-width: 120rgba (156, 156, 156, 0.767);
   text-align: center;
 }
 
@@ -61,11 +60,13 @@
   text-decoration: none;
   padding: 4px 10px;
   border-radius: 5px;
-  color: black;
+  color: rgb(243, 241, 241);
+  margin: 0 auto;
+  width: 70%
 }
 
 .barraNativa__Ocultacion a:hover {
-  background-color: rgb(38, 219, 22);
+  background-color: rgb(148, 248, 34);
   color: black;
   transition: ease-in 400ms;
 }

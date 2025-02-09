@@ -1,0 +1,30 @@
+.bodyCard {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 60vh;
+  margin: 0px 20px;
+}
+.bodyCard div {
+  margin: 10px;
+  box-shadow: 0px 0px 8px rgb(206, 206, 206);
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+.filtros__contenedor, .focusSearch {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+#generadorCampoButton{
+    max-width: 200px;
+    background-color: rgba(153, 247, 13, 0.932);
+    padding: 2px 5px;
+}
+#generadorCampoButton:hover{
+    background-color: rgba(172, 255, 47, 0.966);
+    cursor: pointer;
+}
+.focusSearch input {
+    max-width: 60%;
+}
