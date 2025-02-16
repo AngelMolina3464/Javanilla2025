@@ -27,7 +27,7 @@ const loadJsonData = async () => {
 };
 
 loadJsonData().then((datos) => {
-  console.log(datos[0]);
+  console.log(datos);
   datos.forEach((entidad) => {
     /**
      * 
@@ -38,3 +38,19 @@ loadJsonData().then((datos) => {
     */
   });
 });
+
+export const loadJsonDataSelect = async (selectEntrie) => {
+  // 3
+  try {
+    const response = await fetch("/data/pokemon.json");
+    const data = await response.json();
+    const dataFiltered = data.filter((element) => {
+      //element[selectEntrie - 1].id === selectEntrie;
+    });
+    console.log(dataFiltered);
+    // 3
+    return dataFiltered;
+  } catch (error) {
+    console.log("Mensaje de error:", error);
+  }
+};

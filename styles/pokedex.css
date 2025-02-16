@@ -25,6 +25,17 @@
     background-color: rgba(172, 255, 47, 0.966);
     cursor: pointer;
 }
+
+.focusSearch {
+  display: none;
+}
 .focusSearch input {
     max-width: 60%;
+}
+.focusSearch button{
+  max-width: 150px;
+}
+.cardInfo{
+  display: flex;
+  flex-direction: column;
 }
