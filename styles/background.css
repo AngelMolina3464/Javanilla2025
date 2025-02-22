@@ -1,0 +1,30 @@
+.bg__Container {
+  margin: 20px;
+  min-height: 800px;
+  background-image: url("/media/gb2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.navSimulator {
+  margin: 15px auto;
+  background-color: rgba(255, 255, 255, 0.164);
+  width: 90%;
+}
+
+.navSimulator ul {
+  list-style: none;
+}
+
+.navSimulator ul li {
+  display: inline;
+  background-color: rgba(238, 115, 115, 0.781);
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.navSimulator ul li:hover {
+  background-color: rgba(240, 75, 75, 0.87);
+  cursor: pointer;
+  transition: ease-in-out 200ms;
+}

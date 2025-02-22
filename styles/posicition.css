@@ -1,0 +1,44 @@
+.mainForm {
+  margin: 20px auto;
+  background-color: rgba(201, 226, 226, 0.055);
+  width: 90%;
+  min-height: 80vh;
+}
+.navSimulacion {
+  background-color: rgba(255, 0, 0, 0.637);
+  width: 80%;
+  min-height: 120px;
+}
+.artSimulacion {
+  width: 80%;
+  min-height: 120px;
+  margin: 15px;
+}
+.artSimulacion.yellow {
+  background-color: rgba(255, 255, 0, 0.568);
+  position: relative;
+}
+.artSimulacion.green {
+  background-color: rgba(4, 194, 4, 0.267);
+  left: 50px;
+}
+
+.artSimulacion.pink {
+  margin: 0;
+  width: 50%;
+  min-height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-color: rgba(153, 11, 146, 0.432);
+}
+.blockSh_23 p {
+  background-color: aqua;
+  height: 25px;
+}
+
+.blockSh_23 a {
+  height: 25px;
+  background-color: rgb(46, 72, 219);
+  display: block;
+}
