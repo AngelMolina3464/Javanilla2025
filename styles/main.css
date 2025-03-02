@@ -1,0 +1,32 @@
+
+.bg__MainContainer {
+  background-image: url("/media/ooj.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.bg__mainContainer__Opacity {
+  background-color: rgba(56, 56, 56, 0.336);
+  height: 100%;
+  width: 100%;
+}
+
+.barraNavegacion__Contenedor {
+  display: flex;
+  margin: 5px 10px;
+  column-gap: 15px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.barraNavegacion__Contenedor a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 4px 10px;
+}
+.barraNavegacion__Contenedor a:hover {
+  background-color: #e0c464; 
+  border-radius: 5px;
+  color: black;
+}

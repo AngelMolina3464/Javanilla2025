@@ -1,18 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
+  height: 100vh;
+  width: 100vw;
   background-color: #072146;
-  font-family:  Calibri, "Trebuchet MS", sans-serif;
-  color: aliceblue;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 
 nav {
+  padding-left: 15px;
   display: flex;
   align-items: center;
   column-gap: 15px;
-  border: solid white 2px;
-  border-right: 2px;
-  border-left: 2px;
-  border-top: 10px;
+  background-color: rgba(34, 28, 28, 0.884);
+}
+nav strong{
+  color: whitesmoke;
 }
 nav ul {
   display: flex;
@@ -29,24 +37,4 @@ input[type="date"] {
   box-sizing: border-box;
   margin: 10px 0px;
   border-radius: 10px;
-}
-
-.mainContainer {
-  margin: 10px 15px;
-}
-.barraNavegacion__Contenedor {
-  display: flex;
-  margin: 5px 10px;
-  column-gap: 15px;
-  padding: 5px 10px;
-  border-radius: 10px;
-}
-.barraNavegacion__Contenedor a {
-  text-decoration: none;
-  color: white;
-  padding: 4px 10px;
-}
-.barraNavegacion__Contenedor  a:hover{
-  background-color: rgba(240, 248, 255, 0.342);
-  border-radius: 5px
 }
