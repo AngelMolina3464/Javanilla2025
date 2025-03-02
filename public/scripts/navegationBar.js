@@ -38,3 +38,6 @@ barraAgrupacion.forEach((item) => {
       : (item.style.backgroundColor = "rgba(255, 255, 255, 0.03)");
   });
 });
+
+const model = 62
+console.log(model)
