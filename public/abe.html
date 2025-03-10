@@ -7,21 +7,46 @@
     <title>Abe</title>
   </head>
   <body>
-    <nav class="navContainer">
-      <div class="navContainer_grid">
+    <nav class="nav__Container">
+      <div class="nav__Container__Grid">
         <img src="/media/abe.png" alt="logoAbe" />
-        <ul class="navContainer_Menu">
-          <li class="urlNavegatorOption"><a href="">Inicio</a></li>
-          <li class="urlNavegatorOption"><a href="">Nosotros</a></li>
-          <li class="urlNavegatorOption"><a href="">Equipos</a></li>
-          <li class="urlNavegatorOption"><a href="">Ingenieria</a></li>
-          <li class="urlNavegatorOption"><a href="">Contacto</a></li>
+        <ul class="nav__Container__Menu">
+          <li class="nav__Container__Select">
+            <a href="/inicio" class="nav__Main__Anchore">Inicio</a>
+          </li>
+          <li class="nav__Container__Select">
+            <a href="/nosotros" class="nav__Main__Anchore">Nosotros</a>
+          </li>
+          <li class="nav__Container__Select">
+            <a href="/equipos" class="nav__Main__Anchore">Equipos </a>
+          </li>
+          <li class="nav__Container__Select">
+            <a href="/ingenieria" class="nav__Main__Anchore"
+              >Ingenieria <span>↓</span></a
+            >
+            <div class="nav__Container__Option">
+              <a href="">Proyectos</a>
+              <a href="">RTecorridos Virtuales</a>
+            </div>
+          </li>
+          <li class="nav__Container__Select">
+            <a href="">irrsa <span>↓</span></a>
+            <div class="nav__Container__Option">
+              <a href="">Nosotros</a>
+              <a href="">Recipientes y Paquetes</a>
+              <a href="">Servicios</a>
+              <a href="">Tableros</a>
+            </div>
+          </li>
+          <li class="nav__Container__Select"><a href="">Contacto</a></li>
         </ul>
       </div>
-      <p>
-        Lideres en refrigeración industrial una industria para todas tus
-        nececidades
-      </p>
+      <div class="slogan__Container">
+        <strong class="slogan__Container__Text">
+          Lideres en refrigeración industrial una industria para todas tus
+          necesidades
+        </strong>
+      </div>
     </nav>
 
     <main>
@@ -63,5 +88,6 @@
         <img src="/media/001.png" alt="media" />
       </div>
     </main>
+    <script src="/scripts/abeNavegation.js"></script>
   </body>
 </html>
