@@ -1,16 +1,20 @@
 import express from 'express';
 import morgan from 'morgan';
+// variable de entorno
+import "dotenv/config"
+
 import path from "path"
 import { fileURLToPath } from 'url';
 // Routers 
 import productosRouter from './router/productsRouters.js';
 import mainRouter from "./router/mainRouters.js"
+import mascotasRouter from "./router/mascotasRouter.js"
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const port = 4800; 
+const port = process.env.PORT || 4800; 
 
 // Para Archivos Estaticos con Express
 app.use(express.static(path.join(__dirname, 'public')));
@@ -21,6 +25,7 @@ app.use(morgan('dev'));
 // Uso de Routers
 app.use(mainRouter)
 app.use(productosRouter)
+app.use("/mascotas", mascotasRouter)
 
 app.use((req, res)=> {
     res.status(404).send("Pagina No encontrada")

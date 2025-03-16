@@ -1,5 +1,4 @@
 * {
-
   font-family: "calibri";
   margin: 0;
   padding: 0;
@@ -42,7 +41,7 @@
 }
 
 .nav__Container__Select a {
-  font-family: 'Barlow Semi Condensed',sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   display: block;
   padding: 5px;
   text-transform: uppercase;
@@ -50,7 +49,7 @@
   color: aliceblue;
 }
 
-.nav__Container__Option{
+.nav__Container__Option {
   position: absolute;
   text-align: center;
   min-width: 120px;
@@ -58,18 +57,18 @@
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-.nav__Container__Select, .nav__Container__Option{
+.nav__Container__Select,
+.nav__Container__Option {
   font-size: 18px;
 }
 
-
 .nav__Container__Option.visible {
   display: block;
-  opacity: 1; 
+  opacity: 1;
 }
 
 .nav__Container__Option a {
-  font-family: 'Barlow Semi Condensed',sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   display: block;
   text-align: left;
   text-decoration: none;
@@ -78,10 +77,9 @@
 .slogan__Container {
   margin: 0 auto;
   width: 80%;
-
 }
 .slogan__Container__Text {
-  font-family: 'Barlow Semi Condensed',sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   line-height: 1.2;
   font-size: 2rem;
   text-transform: uppercase;
